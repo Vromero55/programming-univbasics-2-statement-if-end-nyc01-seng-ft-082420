@@ -1,6 +1,5 @@
 current_time=Time.now
-current_time.to_i
-if current_time.%(2)===0
+if current_time.to_i.modula(2)===0
   puts "Even!"
 else
   puts "Odds!"
