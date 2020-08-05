@@ -1,1 +1,1 @@
-Time.now
+current_time=Time.now
